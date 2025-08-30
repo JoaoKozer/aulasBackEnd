@@ -29,4 +29,10 @@ bin/
 .vscode/
 
 ### Mac OS ###
+HEAD
 .DS_Store
+
+.DS_Store
+
+.idea
+45261dd (Crud Básico finalizado)

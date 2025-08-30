@@ -4,6 +4,7 @@ package entidades
 
 import enumeradores.Material
 
+
 class CaixaDAgua(
     val material: Material,
     val capidade: Int,
@@ -28,3 +29,19 @@ class CaixaDAgua(
 //    val valorInstalação = 200.00
 //    val outroUso = "Piscina"
 //}
+
+import java.math.BigDecimal
+
+class CaixaDAgua(
+    var material: Material,
+    var capacidade: Int,
+    var cor: String,
+    var peso: Double,
+    var preco: BigDecimal,
+    var altura: Double,
+    var profundidade: Double,
+    var largura: Double,
+    var marca: String,
+
+    )
+
